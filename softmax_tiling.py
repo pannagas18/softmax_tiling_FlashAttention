@@ -3,7 +3,7 @@ from scipy.special import softmax
 
 # np.random.seed(42)
 L, D = 2, 10
-x = np.random.randn(2,10) # sequence (L), dim (D)
+x = np.random.randn(L,D) # sequence (L), dim (D)
 print("input : ", x)
 
 b = 5 # number of blocks
